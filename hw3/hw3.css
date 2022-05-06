@@ -20,9 +20,15 @@ td {
   background-color: black;
 }
 
-#dropDown:hover {
+#dropDown {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #999;
+  text-align: center;
+  font-size: 18px;
   position: relative;
   background-color: blueviolet;
+  border-radius: 8px;
 }
 
 .dropDownOption:hover {

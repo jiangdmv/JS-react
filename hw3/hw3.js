@@ -41,7 +41,7 @@ document.body.appendChild(table1);
 let headers = tableHeader.map((header) => {
   let th = document.createElement("th");
   th.textContent = header;
-  if (header == "Address") {
+  if (header === "Address") {
     th.style.width = "40%";
   } else {
     th.style.width = "20%";
