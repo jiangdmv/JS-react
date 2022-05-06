@@ -21,6 +21,7 @@ td {
 }
 
 #dropDown {
+  position: relative;
   width: 200px;
   height: 30px;
   border: 1px solid #999;
@@ -29,11 +30,4 @@ td {
   position: relative;
   background-color: blueviolet;
   border-radius: 8px;
-}
-
-.dropDownOption:hover {
-  position: relative;
-  display: block;
-  background-color: brown;
-  color: brown;
 }
