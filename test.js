@@ -17,3 +17,15 @@ for (let index = 1; index <= 3; index++) {
     console.log("after " + index + " second(s):" + index);
   }, index * 1000);
 }
+
+setTimeout(() => {
+  console.log(2);
+}, 2);
+
+setTimeout(() => {
+  console.log(1);
+}, 1);
+
+setTimeout(() => {
+  console.log(0);
+}, 0);
